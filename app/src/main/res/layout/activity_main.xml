@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ff0000"
+    android:orientation="vertical">
+
+    <com.chopperhl.detail.test.CustomViewGroup
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="#ffff00">
+
+        <com.chopperhl.detail.test.CustomView
+
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            android:background="#00ffff" />
+
+        <com.chopperhl.detail.test.CustomView
+            android:layout_width="100dp"
+            android:layout_height="200dp"
+            android:background="#ff00ff" />
+    </com.chopperhl.detail.test.CustomViewGroup>
+
+</LinearLayout>
